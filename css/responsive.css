@@ -1,0 +1,370 @@
+@media (min-width: 1399.98px) {
+  #about .aboutText {
+    height: 100vh !important;
+    justify-content: center !important;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 657px) {
+  #about .aboutText {
+    height: 610px;
+    overflow-y: scroll;
+    padding-top: 43px;
+  }
+}
+
+
+@media (min-width: 576px) and (max-width: 991px) {
+  .navbar-nav {
+    height: 100vh;
+  }
+  .row {
+    --bs-gutter-x: 1rem;
+  }
+  #landscape .allImages .sigleImage {
+    margin-bottom: 17px;
+  }
+  /* project css start here */
+  #projects .polestarCar .title h3 {
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+  #projects .polestarCar .nextProject {
+    margin-top: 15px;
+    margin-bottom: 70px;
+  }
+  #shop .shopText .button:nth-child(1) a {
+    margin-bottom: 0px;
+  }
+  /* project css end here */
+  /* about css start here */
+  #about {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+  }
+  #about .aboutText {
+    height: 610px;
+    overflow-y: scroll;
+    padding-top: 28px;
+  }
+  #about .aboutText {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  #about .aboutText::-webkit-scrollbar {
+    display: none;
+  }
+  #about .aboutText h3 {
+    margin-top: 20px;
+    margin-bottom: 13px;
+    font-size: 17px;
+  }
+  #about .aboutText p {
+    font-size: 12px;
+    line-height: 17.78px;
+  }
+  /* about css end here */
+  /* shop css start here */
+  #shop .shopText {
+    width: 100% !important;
+    display: flex !important;
+  }
+  #shop .shopText a:nth-child(1) {
+    margin-bottom: 0;
+  }
+  /* about css end here */
+  /* contact css start here */
+  #contact {
+    height: 100vh;
+  }
+  #contact .contactForm .text h3 {
+    font-size: 25px;
+    padding-bottom: 10px;
+  }
+  #contact .contactForm .text p {
+    font-size: 14px;
+    padding-bottom: 35px;
+  }
+  #contact .contactForm form .leftside input {
+    font-size: 14px;
+    margin-bottom: 20px;
+    padding: 9px 8px;
+  }
+  #contact .contactForm form .rightside textarea {
+    height: 233px;
+    font-size: 14px;
+  }
+  /* about css end here */
+}
+
+
+
+
+@media (min-width: 320px) and (max-width: 991px) {
+  .container-fluid {
+    width: 94% !important;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .row {
+    --bs-gutter-x: 0.7rem;
+  }
+  /* navbar css start here */
+  .navbar {
+    line-height: 50px;
+    height: 50px;
+  }
+  .navbar-toggler {
+    box-shadow: none !important;
+  }
+  .nav-link {
+    margin: 0;
+  }
+  .navbar-brand {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: 9999;
+  }
+  .navbar-toggler {
+    position: relative;
+    z-index: 999;
+  }
+  .navbar-nav {
+    height: 100vh;
+    background: var(--white);
+    width: 100%;
+    position: absolute;
+    left: 0;
+    transform: scale(0);
+    border-radius: 50%;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+    align-content: center;
+  }
+  .hamburger-box {
+    transform: scale(0.6);
+  }
+  .navbar-toggler {
+    padding: 0;
+    transform: translateX(8px);
+  }
+  /* navbar css end here */
+  /* landscape css star here */
+  #landscape .allImages .sigleImage {
+    margin: 0;
+    margin-bottom: 11px;
+    padding: 0;
+  }
+  #landscape .allImages .sigleImage img {
+    width: 100%;
+  }
+  #landscape .allImages .sigleImage:nth-last-child(1) {
+    margin-bottom: 11px !important;
+  }
+  /* landscape css end here */
+
+  /* project css start here */
+  #projects .proImage {
+    margin-bottom: 13px;
+    position: relative;
+  }
+  #projects .proImage img {
+    height: 100%;
+  }
+  #projects .proBanner h3 {
+    left: 4px;
+    font-size: 14px;
+  }
+  #projects .polestarCar .title h3 {
+    font-size: 14px;
+  }
+  #projects .polestarCar .title p {
+    font-size: 11px;
+    line-height: 16.3px;
+    max-width: 359px;
+    margin: 0 auto;
+    text-align: justify;
+    margin-bottom: 28px;
+  }
+  #projects .smartphoneProject .title p {
+    text-align: left;
+    max-width: 359px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+    font-size: 11px;
+  }
+  #projects .smartphoneProject .image {
+    margin-bottom: 10px;
+  }
+  #projects .polestarCar .image {
+    margin-bottom: 10px;
+  }
+  #projects .polestarCar .nextProject {
+    margin-top: 0px;
+    margin-bottom: 85px;
+  }
+  #projects .polestarCar {
+    margin-top: 18px;
+  }
+
+  #about .aboutImage {
+    height: 100vh;
+  }
+  #about .aboutImage {
+    height: 100%;
+    position: relative;
+    width: 100%;
+    top: 0;
+    transform: translateY(0%) !important;
+    -webkit-transform: translateY(0%) !important;
+    -moz-transform: translateY(0%) !important;
+    -ms-transform: translateY(0%) !important;
+    -o-transform: translateY(0%) !important;
+  }
+  #about .aboutText {
+    padding: 20px 0;
+    padding-bottom: 49px;
+  }
+  #about .aboutText {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #about .aboutText h3 {
+    margin-top: 20px;
+    margin-bottom: 13px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  #about .aboutText p {
+    font-size: 11px;
+    text-align: left;
+  }
+  /* about css end here*/
+
+  /* shop css start here */
+  #shop .shopText {
+    width: 100% !important;
+    display: block !important;
+  }
+  #shop .shopText a {
+    border: 2px solid var(--black);
+    text-align: center;
+    color: var(--black);
+    padding: 3px 10px;
+    font-weight: 600;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.2s ease-in-out;
+    margin: 0 auto;
+  }
+  #shop .shopText .button {
+    text-align: center;
+  }
+  #shop .shopText .button a {
+    text-align: center;
+    display: inline-block;
+  }
+  #shop .shopText {
+    width: 100% !important;
+    display: block !important;
+    height: 100%;
+  }
+  #shop .shopText .button:nth-child(1) a {
+    margin-bottom: 127px;
+  }
+  #shop .shopText .button:nth-child(1) a:hover {
+    transform: translateX(0px) !important;
+    -webkit-transform: translateX(0px) !important;
+    -moz-transform: translateX(0px) !important;
+    -ms-transform: translateX(0px) !important;
+    -o-transform: translateX(0px) !important;
+  }
+  #shop .shopText .button:nth-child(2) a:hover {
+    transform: translateX(0px) !important;
+    -webkit-transform: translateX(0px) !important;
+    -moz-transform: translateX(0px) !important;
+    -ms-transform: translateX(0px) !important;
+    -o-transform: translateX(0px) !important;
+  }
+  /* shop css end here */
+
+  /* contact css start here */
+  #contact {
+    height: 100%;
+  }
+  #contact .contactForm .text {
+    padding-top: 47px;
+  }
+  #contact .contactForm {
+    width: 100%;
+    margin: 0 auto;
+  }
+  #contact .contactForm .text h3 {
+    font-size: 14px;
+    padding-bottom: 0;
+  }
+  #contact .contactForm .text p {
+    font-size: 12px;
+    padding-bottom: 15px;
+  }
+  #contact .contactForm .text p span {
+    display: block;
+  }
+  #contact .contactForm form .leftside input {
+    font-size: 12px;
+    margin-bottom: 20px;
+    padding: 9px 8px;
+  }
+  #contact .contactForm form .rightside span {
+    font-size: 12px;
+  }
+  #contact .contactForm form .leftside input:nth-last-child(1) {
+    margin-bottom: 20px;
+  }
+  #contact .contactForm form button {
+    margin-top: 15px;
+    font-size: 12px;
+    padding: 11px 14px;
+    margin-bottom: 60px;
+  }
+  /* contact css end here */
+
+  /* imprint css start here */
+  #imprint .imprinttext {
+    width: 100% !important;
+    padding: 0 20px;
+  }
+  /* imprint css end here */
+
+  /* privacy css start here */
+  #privacy .privacyText {
+    width: 100%;
+    padding: 64px 20px;
+  }
+  /* privacy css end here */
+
+  /* footer css start here*/
+  #footer {
+    z-index: 99999999;
+    height: 49px;
+  }
+  #footer .footerText {
+    height: 49px;
+    align-items: center;
+  }
+  /* footer css end here*/
+}
